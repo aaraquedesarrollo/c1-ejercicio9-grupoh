@@ -1,3 +1,55 @@
+:root {
+  --color-principal: #ED6436;
+  --color-fuente: #181818;
+}
+
 body {
   font-family: 'Nunito', sans-serif;
+  color: var(--color-fuente);
+}
+
+a {
+  color: var(--color-fuente);
+}
+
+.logo {
+  flex-grow: 0;
+  flex-basis: 600px;
+}
+
+.menu-burger {
+  font-size: 30px;
+}
+
+.item-lista {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* =================== BOTONES =================== */
+
+.boton {
+  border: 2px solid var(--color-principal);
+  font-weight: bold;
+  border-radius: 0px;
+}
+
+.boton-nav {
+  font-size: 20px;
+  height: 54px;
+  width: 150px;
+  border-top-right-radius: 40px 40px;
+  border-bottom-right-radius: 40px 40px;
+  border-bottom-left-radius: 40px 40px;
+}
+
+.boton-principal {
+  color: white;
+  background-color: var(--color-principal);
+  height: 40px;
+  width: 100px;
+  font-size: 12px;
+  border-top-right-radius: 20px 20px;
+  border-bottom-right-radius: 20px 20px;
+  border-bottom-left-radius: 20px 20px;
 }
