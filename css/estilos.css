@@ -58,3 +58,7 @@ a {
 {
    border-radius: 25px;
 }
+
+.animal :hover .actividad {
+  display: block;
+}
