@@ -33,13 +33,13 @@ a {
   font-weight: bold;
 }
 .titulo {
-  font-size: 25px;
+  font-size: 18px;
   color: var(--color-principal);
-  font-weight: 900;
-  margin-top: 100px;
+  font-weight: 700;
+  margin-top: 30px;
 }
 .subtitulo {
-  font-size: 66px;
+  font-size: 40px;
   font-weight: 800;
 }
 /* =================== BOTONES =================== */
@@ -58,9 +58,9 @@ a {
 .boton-principal {
   color: white;
   background-color: var(--color-principal);
-  height: 61px;
-  width: 170px;
-  font-size: 20px;
+  height: 47px;
+  width: 126px;
+  font-size: 15px;
   border-top-right-radius: 40px 40px;
   border-bottom-right-radius: 40px 40px;
   border-bottom-left-radius: 40px 40px;
