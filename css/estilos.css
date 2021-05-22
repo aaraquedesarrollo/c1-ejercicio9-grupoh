@@ -33,13 +33,13 @@ a {
   font-weight: bold;
 }
 .titulo {
-  font-size: 25px;
+  font-size: 18px;
   color: var(--color-principal);
   font-weight: 700;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 .subtitulo {
-  font-size: 66px;
+  font-size: 40px;
   font-weight: 900;
 }
 /* =================== BOTONES =================== */
@@ -96,5 +96,17 @@ a {
   .items-dropdown:hover {
     color: var(--color-principal);
     background-color: transparent;
+  }
+  .titulo {
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 960px) {
+  .titulo {
+    font-size: 25px;
+  }
+  .subtitulo {
+    font-size: 66px;
   }
 }
