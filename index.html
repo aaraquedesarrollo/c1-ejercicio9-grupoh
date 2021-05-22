@@ -1,75 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <title>Mascotas</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/estilos.css">
-  <title>Mascotas</title>
-</head>
-
-<body>
-  <div class=" contenedor-general container-fluid">
-    <div class="cabecera row px-4 shadow-sm">
-      <header class="col">
-        <div class="row py-3">
-          <nav class="col">
-            <div class="row align-items-center justify-content-between">
-              <div class="col-2">
-                <img src="img/logo.png" alt="Logo de una huella de perro de color naranja" height="62" width="63">
-              </div>
-              <div class="col-10">
-                <div class="row align-items-center justify-content-end">
-                  <i class="menu-burger fas fa-bars col d-none"></i>
-                  <ul class="list-unstyled row align-items-center m-0">
-                    <li class="item-lista px-4"><a class="" href="#">Home</a></li>
-                    <li class="item-lista desplegado px-4">Live Demo <i class="fas fa-sort-down"></i></li>
-                    <li class="item-lista px-4">Live Demo Blocks <i class="fas fa-sort-down"></i>
-                    </li>
-                    <li class="item-lista px-4"><button class="boton boton-nav btn">BUY NOW</button></li>
-                  </ul>
+  <body>
+    <div class="contenedor-general container-fluid">
+      <div class="cabecera row px-4 shadow-sm">
+        <header class="col">
+          <div class="row py-3">
+            <nav class="nav-bar col">
+              <div class="row align-items-center justify-content-between">
+                <div class="col-2">
+                  <img
+                    src="img/logo.png"
+                    alt="Logo de una huella de perro de color naranja"
+                    height="62"
+                    width="63"
+                  />
+                </div>
+                <div class="col-10">
+                  <div class="row align-items-center justify-content-end">
+                    <i class="menu-burger fas fa-bars col d-none"></i>
+                    <ul class="list-unstyled row align-items-center m-0">
+                      <li class="item-lista px-4">
+                        <a class="" href="">Home</a>
+                      </li>
+                      <li class="item-lista desplegado px-4">
+                        <a href="">
+                          Live Demo <i class="fas fa-sort-down"></i
+                        ></a>
+                      </li>
+                      <li class="item-lista px-4">
+                        <a href="">
+                          Live Demo Blocks <i class="fas fa-sort-down"></i>
+                        </a>
+                      </li>
+                      <li class="item-lista px-4">
+                        <button class="boton boton-nav btn">BUY NOW</button>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
-          </nav>
-        </div>
-      </header>
-    </div>
-<section>
-      <h1>Pet activities</h1>
-      Take a closer look
-      <button class="boton boton-principal btn">VIEW ALL</button>
-</section>
-<main class="principal">
+            </nav>
+          </div>
+        </header>
+      </div>
+      <section>
+        <h1>Pet activities</h1>
+        Take a closer look
+        <button class="boton boton-principal btn">VIEW ALL</button>
+      </section>
+      <main class="principal">
         <article class="animal">
           <div>
-          <img class="images" src="img/01.jpg" alt="Perro mordiendo un juguete amarillo">
-          <span class ="actividad">Activities</span>
-          <span class ="actividad"><h2>Toys playtime</h2></span>
+            <img
+              class="images"
+              src="img/01.jpg"
+              alt="Perro mordiendo un juguete amarillo"
+            />
+            <span class="actividad">Activities</span>
+            <span class="actividad"><h2>Toys playtime</h2></span>
           </div>
         </article>
         <article class="animal">
           <div class="flex">
-          <img class="images" src="img/02.jpg" alt="Gato debajo de una alfombra">
-          Activities
-          <h2>Active Rest</h2>
+            <img
+              class="images"
+              src="img/02.jpg"
+              alt="Gato debajo de una alfombra"
+            />
+            Activities
+            <h2>Active Rest</h2>
           </div>
         </article>
         <article class="animal">
           <div>
-          <img class="images" src="img/03.jpg" alt="Perro corriendo al aire libre">
-          Activities
-          <h2>Game Walks</h2>
+            <img
+              class="images"
+              src="img/03.jpg"
+              alt="Perro corriendo al aire libre"
+            />
+            Activities
+            <h2>Game Walks</h2>
           </div>
         </article>
-    </main>
-  </div>
-</body>
-
+      </main>
+    </div>
+  </body>
 </html>

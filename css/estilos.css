@@ -1,11 +1,15 @@
 :root {
-  --color-principal: #ED6436;
+  --color-principal: #ed6436;
   --color-fuente: #181818;
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   color: var(--color-fuente);
+}
+ul,
+li {
+  text-decoration: none;
 }
 
 a {
@@ -54,11 +58,29 @@ a {
   border-bottom-left-radius: 20px 20px;
 }
 
-.images
-{
-   border-radius: 25px;
+.images {
+  border-radius: 25px;
 }
 
 .animal :hover .actividad {
   display: block;
+}
+
+@media (min-width: 900px) {
+  .nav-bar a {
+    padding-bottom: 13px;
+    transition: all 0.2s ease;
+  }
+  .nav-bar a:hover {
+    color: var(--color-principal);
+    border-bottom: 2px solid var(--color-principal);
+    text-decoration: none;
+  }
+  .boton {
+    transition: all 0.2s ease;
+  }
+  .boton:hover {
+    background-color: var(--color-principal);
+    color: #fff;
+  }
 }
