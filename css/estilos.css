@@ -53,3 +53,12 @@ a {
   border-bottom-right-radius: 20px 20px;
   border-bottom-left-radius: 20px 20px;
 }
+
+.images
+{
+   border-radius: 25px;
+}
+
+.animal :hover .actividad {
+  display: block;
+}
