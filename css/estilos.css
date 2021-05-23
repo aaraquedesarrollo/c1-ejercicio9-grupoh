@@ -15,6 +15,10 @@ a {
   color: var(--color-fuente);
 }
 /* =================== NAVBAR =================== */
+.navbar {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .item-lista {
   font-size: 18px;
   font-weight: bold;
