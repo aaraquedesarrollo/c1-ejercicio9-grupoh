@@ -14,14 +14,15 @@ ul {
 a {
   color: var(--color-fuente);
 }
+/* =================== NAVBAR =================== */
 .item-lista {
   font-size: 18px;
   font-weight: bold;
-  margin-left: 30px;
+  text-align: center;
 }
 .item-lista a {
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .menu-desplegable {
   border: none;
@@ -31,7 +32,9 @@ a {
 .items-dropdown {
   border-bottom: 1px solid #e1e1e1;
   font-weight: bold;
+  padding: 0;
 }
+/* =================== BARRA INFORMATIVA=================== */
 .titulo {
   font-size: 18px;
   color: var(--color-principal);
@@ -48,15 +51,12 @@ a {
   width: 100%;
   bottom: 5px;
 }
-
 .actividad span {
   font-size: 13px;
 }
-
 .actividad h2 {
   font-size: 25px;
 }
-
 /* =================== BOTONES =================== */
 .boton {
   border: 2px solid var(--color-principal);
@@ -110,6 +110,9 @@ a {
 }
 
 @media (min-width: 768px) {
+  .item-lista {
+    margin-left: 35px;
+  }
   .item-lista a {
     padding-bottom: 10px;
     padding-top: 10px;
