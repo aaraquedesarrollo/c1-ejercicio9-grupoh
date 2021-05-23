@@ -39,9 +39,26 @@ a {
   margin-top: 30px;
 }
 .subtitulo {
-  font-size: 40px;
+  font-size: 34px;
   font-weight: 900;
 }
+.actividad {
+  color: white;
+  font-weight: 600;
+  width: 100%;
+  bottom: 5px;
+}
+
+.actividad span {
+  font-size: 13px;
+}
+
+.actividad h2 {
+  font-size: 25px;
+}
+
+
+
 /* =================== BOTONES =================== */
 .boton {
   border: 2px solid var(--color-principal);
@@ -70,8 +87,28 @@ a {
   border-radius: 25px;
 }
 
+.animal {
+  padding-bottom: 40px;
+}
+
 .animal:hover .actividad {
   display: block;
+}
+
+.shade {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+}
+
+@media (min-width: 430px) {
+  .subtitulo {
+    font-size: 40px;
+  }
 }
 
 @media (min-width: 768px) {
