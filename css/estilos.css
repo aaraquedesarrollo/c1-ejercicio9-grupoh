@@ -68,6 +68,7 @@ a {
   border-top-right-radius: 40px 40px;
   border-bottom-right-radius: 40px 40px;
   border-bottom-left-radius: 40px 40px;
+  transition: all 0.2s ease;
 }
 
 .boton-principal {
@@ -79,6 +80,7 @@ a {
   border-top-right-radius: 40px 40px;
   border-bottom-right-radius: 40px 40px;
   border-bottom-left-radius: 40px 40px;
+  transition: all 0.2s ease;
 }
 
 .images {
@@ -123,12 +125,14 @@ a {
     color: var(--color-principal);
     border-bottom: 3px solid var(--color-principal);
   }
-  .boton {
-    transition: all 0.2s ease;
-  }
+
   .boton:hover {
     background-color: var(--color-principal);
     color: #fff;
+  }
+  .boton-principal:hover {
+    color: var(--color-principal);
+    background-color: #fff;
   }
 
   .items-dropdown:hover {
