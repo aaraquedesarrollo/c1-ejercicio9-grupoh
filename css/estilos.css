@@ -57,8 +57,6 @@ a {
   font-size: 25px;
 }
 
-
-
 /* =================== BOTONES =================== */
 .boton {
   border: 2px solid var(--color-principal);
@@ -145,5 +143,21 @@ a {
   }
   .subtitulo {
     font-size: 66px;
+  }
+  .actividad {
+    display: none;
+  }
+  .shade {
+    background-color: transparent;
+  }
+  .caja {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .contenido-imagen img {
+    width: 318px;
+    height: 365px;
+    object-fit: cover;
+    object-position: 46% 50%;
   }
 }
