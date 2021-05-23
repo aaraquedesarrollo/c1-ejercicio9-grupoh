@@ -129,7 +129,9 @@ a {
     color: var(--color-principal);
     border-bottom: 3px solid var(--color-principal);
   }
-
+  .navegacion-link {
+    display: inline;
+  }
   .boton:hover {
     background-color: var(--color-principal);
     color: #fff;
