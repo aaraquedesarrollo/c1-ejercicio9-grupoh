@@ -30,8 +30,9 @@ a {
 }
 .menu-desplegable {
   border: none;
-  top: 45px;
-  left: -26px;
+  top: 32px;
+  left: -22px;
+  padding: 15px;
 }
 .items-dropdown {
   border-bottom: 1px solid #e1e1e1;
@@ -132,7 +133,7 @@ a {
   .item-lista a {
     padding-bottom: 10px;
     padding-top: 10px;
-    transition: all 0.2s ease;
+    transition: all 0.1s ease;
   }
   .item-lista > a:hover {
     text-decoration: none;
