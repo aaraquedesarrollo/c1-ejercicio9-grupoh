@@ -109,10 +109,6 @@ a {
   padding-bottom: 40px;
 }
 
-.animal:hover .actividad {
-  display: block;
-}
-
 .shade {
   width: 100%;
   height: 100%;
@@ -176,6 +172,21 @@ a {
   }
   .shade {
     background-color: transparent;
+  }
+  .shade:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  .shade:hover .actividad {
+    display: block;
+    bottom: 37%;
+  }
+  .shade:hover span {
+    font-size: 19px;
+  }
+  .shade:hover h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 20px;
   }
   .caja {
     margin-right: 25px;
